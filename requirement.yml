@@ -1,0 +1,19 @@
+name: wikiorg
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python=3.8
+#     - scikit-learn 
+#     - spacy
+#     - numpy 
+#     - pandas
+    - setuptools
+    - pip
+    - pip:
+        - pywikibot
+        - mwparserfromhell>=0.5.0
+        - fuzzywuzzy
+        - python-Levenshtein
+
+    
